@@ -49,8 +49,10 @@ PreparedStatement pst;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(44, 61, 79));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 255)), "New Account", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 24), new java.awt.Color(102, 204, 255))); // NOI18N
 
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("UserName");
 
         jButton2.setText("Back");
@@ -60,12 +62,16 @@ PreparedStatement pst;
             }
         });
 
+        jLabel4.setForeground(new java.awt.Color(102, 204, 255));
         jLabel4.setText("Security Question");
 
+        jLabel3.setForeground(new java.awt.Color(102, 204, 255));
         jLabel3.setText("Password");
 
+        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("Name");
 
+        jLabel5.setForeground(new java.awt.Color(102, 204, 255));
         jLabel5.setText("Answer");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "What is your nick name?", "What is your school name?", "Where were you born?", "Who is your childhood friend?" }));

@@ -58,12 +58,15 @@ PreparedStatement pst;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(44, 61, 79));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 204)), "New Book", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 24), new java.awt.Color(102, 204, 255))); // NOI18N
 
         jTextField1.setEditable(false);
 
+        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("Book ID");
 
+        jLabel4.setForeground(new java.awt.Color(102, 204, 255));
         jLabel4.setText("Publisher");
 
         jButton2.setText("Back");
@@ -73,12 +76,15 @@ PreparedStatement pst;
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("Name");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8" }));
 
+        jLabel5.setForeground(new java.awt.Color(102, 204, 255));
         jLabel5.setText("Price");
 
+        jLabel3.setForeground(new java.awt.Color(102, 204, 255));
         jLabel3.setText("Edition");
 
         jButton1.setText("Add");
@@ -88,6 +94,7 @@ PreparedStatement pst;
             }
         });
 
+        jLabel6.setForeground(new java.awt.Color(102, 204, 255));
         jLabel6.setText("Pages");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -119,7 +126,7 @@ PreparedStatement pst;
                             .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
                                 .addComponent(jButton1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 130, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 134, Short.MAX_VALUE)
                                 .addComponent(jButton2)))))
                 .addContainerGap())
         );
@@ -166,14 +173,14 @@ PreparedStatement pst;
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGap(29, 29, 29))
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(20, 20, 20)
+                .addContainerGap()
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );

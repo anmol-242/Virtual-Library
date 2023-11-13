@@ -53,6 +53,7 @@ PreparedStatement pst;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(44, 61, 79));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 255)), "Forgot Password", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 24), new java.awt.Color(102, 204, 255))); // NOI18N
 
         jButton3.setText("Back");
@@ -62,6 +63,7 @@ PreparedStatement pst;
             }
         });
 
+        jLabel3.setForeground(new java.awt.Color(102, 204, 255));
         jLabel3.setText("Security Question");
 
         jTextField3.setEditable(false);
@@ -84,12 +86,16 @@ PreparedStatement pst;
 
         jTextField2.setEditable(false);
 
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("Name");
 
+        jLabel4.setForeground(new java.awt.Color(102, 204, 255));
         jLabel4.setText("Answer");
 
+        jLabel5.setForeground(new java.awt.Color(102, 204, 255));
         jLabel5.setText("Your Password");
 
+        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("UserName");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

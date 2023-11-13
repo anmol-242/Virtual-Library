@@ -61,12 +61,14 @@ Thread th;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(44, 61, 79));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 204)));
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("Library Management System");
 
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("Loading....");
 
         jProgressBar1.setForeground(new java.awt.Color(102, 204, 255));

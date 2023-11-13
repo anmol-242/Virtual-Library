@@ -48,6 +48,7 @@ PreparedStatement pst;
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(44, 61, 79));
         jPanel1.setBorder(javax.swing.BorderFactory.createTitledBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(255, 51, 204)), "Login", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Segoe UI", 0, 24), new java.awt.Color(102, 204, 255))); // NOI18N
 
         jButton1.setText("Login");
@@ -64,6 +65,7 @@ PreparedStatement pst;
             }
         });
 
+        jLabel2.setForeground(new java.awt.Color(102, 204, 255));
         jLabel2.setText("Password");
 
         jButton2.setText("Sign Up");
@@ -73,8 +75,10 @@ PreparedStatement pst;
             }
         });
 
+        jLabel1.setForeground(new java.awt.Color(102, 204, 255));
         jLabel1.setText("UserName");
 
+        jLabel3.setForeground(new java.awt.Color(102, 204, 255));
         jLabel3.setText("Trouble Logging In..?");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
